@@ -12,11 +12,11 @@
 		AA1174F221ECD2C8001162C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1174F121ECD2C8001162C8 /* AppDelegate.swift */; };
 		AA1174F421ECD2C8001162C8 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1174F321ECD2C8001162C8 /* TodoListViewController.swift */; };
 		AA1174F721ECD2C8001162C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1174F521ECD2C8001162C8 /* Main.storyboard */; };
-		AA1174F921ECD2C9001162C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1174F821ECD2C9001162C8 /* Assets.xcassets */; };
 		AA1174FC21ECD2C9001162C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1174FA21ECD2C9001162C8 /* LaunchScreen.storyboard */; };
 		AA5AFC5F2204C3290093989E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5AFC5E2204C3290093989E /* Item.swift */; };
 		AA5AFC612204C3320093989E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5AFC602204C3320093989E /* Category.swift */; };
 		AAA337C92209F94800FD5924 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA337C82209F94800FD5924 /* SwipeTableViewController.swift */; };
+		AAFE6EE1220C9A0D00217EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFE6EE0220C9A0D00217EEA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		AA1174F121ECD2C8001162C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1174F321ECD2C8001162C8 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		AA1174F621ECD2C8001162C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA1174F821ECD2C9001162C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1174FB21ECD2C9001162C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1174FD21ECD2C9001162C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5AFC5E2204C3290093989E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AA5AFC602204C3320093989E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AAA337C82209F94800FD5924 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		AAFE6EE0220C9A0D00217EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4506AD9DE25B4A48965EAEA /* Pods-Todoey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todoey/Pods-Todoey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +51,7 @@
 		AA1174E521ECD2C8001162C8 = {
 			isa = PBXGroup;
 			children = (
+				AAFE6EE0220C9A0D00217EEA /* Assets.xcassets */,
 				AA1174F021ECD2C8001162C8 /* Todoey */,
 				AA1174EF21ECD2C8001162C8 /* Products */,
 				CFD18095B876AF22BFFF5D8C /* Pods */,
@@ -72,7 +73,6 @@
 				AA1174F121ECD2C8001162C8 /* AppDelegate.swift */,
 				AAD4C42421F76118005FC2A6 /* Controllers */,
 				AAD4C42521F76147005FC2A6 /* Views */,
-				AA1174F821ECD2C9001162C8 /* Assets.xcassets */,
 				AA1174FA21ECD2C9001162C8 /* LaunchScreen.storyboard */,
 				AAD4C42621F7615B005FC2A6 /* Supporting Files */,
 				AAD4C42321F7610B005FC2A6 /* Data Model */,
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1174FC21ECD2C9001162C8 /* LaunchScreen.storyboard in Resources */,
-				AA1174F921ECD2C9001162C8 /* Assets.xcassets in Resources */,
+				AAFE6EE1220C9A0D00217EEA /* Assets.xcassets in Resources */,
 				AA1174F721ECD2C8001162C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
